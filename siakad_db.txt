@@ -9,6 +9,7 @@ Mahasiswa
 - image_profile text
 - role_id foreign int 2
 - prodi_id foreign int 2
+- last_login datetime
 - created_at
 - updated_at
 
@@ -43,6 +44,8 @@ tbl_detail_mahasiswa
 - nama_sma varchar 50
 - tahun_lulus_sma int 4
 - tahun_masuk_ikmi int 4
+- jenjang_studi
+- sks_yg_ditempuh
 - created_at
 - updated_at
 
@@ -61,6 +64,7 @@ Dosen
 - email varchar unique 50
 - password varchar 50
 - image_profile text
+- last_login datetime
 - created_at
 - updated_at
 
@@ -69,6 +73,7 @@ StafAkademik
 - nipd varchar 8
 - password varchar 50
 - nama_staf varchar 50
+- last_login datetime
 - created_at
 - updated_at
 
